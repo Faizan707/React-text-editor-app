@@ -37,9 +37,7 @@ export default function Textform(props) {
     <button className="btn btn-primary mx-1" onClick={handleclearClick}>Clear</button>
    </div>
    <div>
-    <h3>summary of text here </h3>
-    <p>words {text.split(" ").length} and characters {text.length}</p>
-   </div>
+  
     </>
 
   )
